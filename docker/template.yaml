@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  ${CONTAINER}:
+    image: "${MAINTAINER}/${CONTAINER}:${VERSION}"
+    restart: always
+    ports:
+      - "${PORT}:${PORT}"
+    container_name: "${CONTAINER}"
+    volumes:
+      - "./bin:/usr/local/${CONTAINER}"
+    environment:
+      - API=${API}
+      - URL=${URL}
+      - PORT=${PORT}
+      - LOGIN=${LOGIN}
+      - PASS=${PASS}
