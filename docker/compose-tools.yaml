@@ -2,10 +2,10 @@ version: '3'
 
 services:
   hdp-tools:
-    image: "olegbukatchuk/compose-tools:0.0.6"
+    image: "olegbukatchuk/ops-tools:0.0.6"
     restart: always
     ports:
       - "8080:8080"
-    container_name: "hdp-tools"
+    container_name: "ops-tools"
     volumes:
-      - "./bin:/usr/local/hdp-tools"
+      - "./bin:/usr/local/ops-tools"

@@ -1,4 +1,4 @@
-# compose-tools
+# ops-tools
 
 ## Build image
 ```

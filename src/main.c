@@ -2,7 +2,7 @@
 
 int main(void)
 {
-   printf("Hi! This is compose-tools!\n");
+   printf("Hi! This is ops-tools!\n");
 
    return 0;
 }

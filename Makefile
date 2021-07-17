@@ -1,5 +1,5 @@
 MAINTAINER := olegbukatchuk
-CONTAINER := compose-tools
+CONTAINER := ops-tools
 VERSION := 0.0.6
 COMPOSE := ${CONTAINER}.yaml
 PORT := 8080
