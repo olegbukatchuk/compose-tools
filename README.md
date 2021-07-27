@@ -1,24 +1,24 @@
 # ops-tools
 
-## Build image
+### Build image
 ```
 make build
 ```
-## Login to registry
+### Login to registry
 ```
 docker login registry.url
 ```
-## Push to registry
+### Push to registry
 ```
 make push
 ```
-## Local run
+### Local run
 ```
 make up
 ```
-## Stop compose
+### Stop compose
 ```
 make down
 ```
-## To do
+### To do
 - Install dependencies
