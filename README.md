@@ -4,9 +4,13 @@
 ```
 make build
 ```
+## Login to registry
+```
+docker login registry.url
+```
 ## Push to registry
 ```
-docker login registry.url && make push
+make push
 ```
 ## Local run
 ```
