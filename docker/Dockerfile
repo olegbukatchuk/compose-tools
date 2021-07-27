@@ -12,6 +12,4 @@ RUN yum update -y \
     && yum install gcc curl -y \
     && yum clean all -y
 
-
-
 EXPOSE 8080

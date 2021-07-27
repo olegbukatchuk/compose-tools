@@ -18,12 +18,13 @@ compose:
 
 build:
 	docker build \
-		--build-arg VERSION=${VERSION} \
-		--build-arg CONTAINER=${CONTAINER} \
-		--tag ${MAINTAINER}/${CONTAINER}:${VERSION} docker/
+				--build-arg VERSION=${VERSION} \
+				--build-arg CONTAINER=${CONTAINER} \
+				--tag ${MAINTAINER}/${CONTAINER}:${VERSION} docker/
 
 push:
-	docker push ${MAINTAINER}/${CONTAINER}:${VERSION}
+	docker push \
+				${MAINTAINER}/${CONTAINER}:${VERSION}
 
 up:
 	MAINTAINER=${MAINTAINER} \

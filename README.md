@@ -20,3 +20,5 @@ make up
 ```
 make down
 ```
+## To do
+- Install dependencies
